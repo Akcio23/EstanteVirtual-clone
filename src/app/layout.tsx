@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className="w-full h-screen bg-white">
+      <body className="w-screen h-screen bg-white">
         
         {children}
       </body>

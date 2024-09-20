@@ -13,10 +13,12 @@ const config: Config = {
         foreground: "var(--foreground)",
         'custom-blue': 'rgb(19, 110, 248)',
         'custom-gree': 'rgb(0, 123, 124)',
+        'border':'rgb(59, 191, 174)',
       },
       screens:{
-        'xs': '375px'
-      }
+        'xs': '375px',
+        
+      },
     },
   },
   plugins: [],
