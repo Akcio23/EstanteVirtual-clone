@@ -1,14 +1,12 @@
 import NavItens from './NavItens';
-import React, { FC, ReactNode } from 'react';
+import React from 'react';
 
-interface Name {
-    name: ReactNode;
-}
+
 
 const img = "https://static.netshoes.com.br/vue-components-ev/0.0.13/estantevirtual/images/4ad6658585e37407418cb8516376cea3.png"
 
 function MenuComponent() {
-    const cor = "rgb(0, 123, 124)"
+
     return (
 
         <nav className="bg-white sticky top-0 left-0 w-full z-20  h-full p-2">
