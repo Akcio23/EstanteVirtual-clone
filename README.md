@@ -5,10 +5,10 @@
 This is a Next.js project created with create-next-app to simulate the Estante Virtual website.
 
 ## technologies 
- . Nextjs
- . React
- . Tailwind
- . Typescript
+ . Nextjs  
+ . React  
+ . Tailwind  
+ . Typescript  
 
  # libraries
   . React carousel responsive
