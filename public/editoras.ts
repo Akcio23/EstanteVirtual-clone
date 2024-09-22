@@ -1,12 +1,12 @@
 export const editoras =[
     {   
         id:1,
-        name: "Grupo Editorial Record",
+        name: "Editorial Record",
         image_url: "https://static.estantevirtual.com.br/bnn/l_estantevirtual/2024-04-08/9164_editoras.png"
     },
     {   
         id:1,
-        name: "Companhia das Letras",
+        name: "Cia das Letras",
         image_url: "https://static.estantevirtual.com.br/bnn/l_estantevirtual/2024-04-08/8497_cia.png"
     },
     {   
@@ -36,7 +36,7 @@ export const editoras =[
     },
     {
         id:1,
-        name: "Editora Nós",
+        name: "Nós",
         image_url: "https://static.estantevirtual.com.br/bnn/l_estantevirtual/2024-08-02/9149_NOS.png"
     }
 ]

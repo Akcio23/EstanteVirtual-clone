@@ -19,8 +19,12 @@ const config: Config = {
         'xs': '375px',
         'xz':'1200px',
       },
+      filter: {
+        'alter-green': 'invert(86%) sepia(15%) saturate(4691%) hue-rotate(134deg) brightness(95%) contrast(91%)',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+ ],
 };
 export default config;
