@@ -11,21 +11,21 @@ function MenuComponent() {
     const cor = "rgb(0, 123, 124)"
     return (
 
-        <nav className="bg-white sticky top-0 left-0 w-full z-10 ">
+        <nav className="bg-white sticky top-0 left-0 w-full z-20  h-full">
             <div className="flex text-black sm:p-5 justify-center flex-col sm:flex-row gap-2 sm:gap-10 pt-3 border-b-2">
                 <div className='flex items-center xs:items-center justify-center'>
-                    <img src={img} alt="logo" width={135} className="max-w-full h-auto" />
+                    <img src={img} alt="logo" width={100} className="max-w-full h-auto" />
                 </div>
 
 
 
-                <div className='flex sm:w-[40%] xs:w-[100%] whitespace-nowrap ' >
-                    <div className='p-2 border-2 flex justify-center items-center sm:w-[25%] xs:w-[30%] overflow-hidden text-sm'>
-                        <p >Titulo e Autor</p>
+                <div className='flex sm:w-[40%] xs:w-[100%] whitespace-nowrap  ' >
+                    <div className='p-2 border-2 flex justify-center items-center sm:w-[25%] xs:w-[30%] overflow-hidden text-sm '>
+                        <p >Titulo</p>
                     </div>
 
 
-                    <input type="text" placeholder='Oque você esta procurando?' className='p-3 border-2 xs:w-[80%] sm:w-80%]' />
+                    <input type="text" placeholder='Oque você esta procurando?' className='p-2 border-2 xs:w-[80%] sm:w-[80%] ' />
                     <div className='border-2 transition-transform   flex items-center p-3 hover:bg-custom-blue ' >
                         <img src="vidro.png"
                             alt="lupa"
@@ -38,7 +38,7 @@ function MenuComponent() {
 
                 </div>
 
-                <ul className='flex gap-2 items-center xs:justify-around text-lg sm:w-[20%] sm:justify-evenly '>
+                <ul className='flex gap-2 items-center xs:justify-around text-sm sm:w-[20%] sm:justify-evenly '>
                     <li><p className="txt-mercury" style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                         <svg aria-hidden="true" focusable="false" className="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1.5em" height="1.5em">
                             <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
