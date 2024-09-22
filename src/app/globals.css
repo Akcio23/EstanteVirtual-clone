@@ -8,6 +8,9 @@ body{
     user-select: none;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    font-style: normal
+    font-style: normal;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
    
 }
